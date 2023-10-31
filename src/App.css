@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+.logo{
+    width: 200px;
+    height: 50px;
+}
+.input-Rounded{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 20px;
+    outline: none;
+}
+.btn-Rounded{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #ffffff;
+}
+.customStatic{
+    position: static;
+}
+.gallery-Container{
+padding: 30px;
+    flex-grow: 1;
+    overflow-y: auto;
+
+}
+
+.customWidthOdd{
+    border-radius: 15px;
+    width: 450px;
+    height: 450px;
+    border: 1px solid #4f4f4f;
+    margin: 10px;
+}
+
+.customWidthEven{
+    border-radius: 15px;
+    width: 450px;
+    height: 200px;
+    border: 1px solid #4f4f4f;
+    margin: 10px;
+
+}
